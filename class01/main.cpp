@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-// ¸ê®Æ«¬ºA
+// Data Type
 /*
 int main()
 {
@@ -15,7 +15,7 @@ int main()
 }
 */
 
-// ¿é¤J/¿é¥X
+// Input/Output
 /*
 int main(){
     int age;
@@ -29,7 +29,7 @@ int main(){
 }
 */
 
-// ¦r¦ê
+// String
 /*
 int main(){
     string slogan = "Welcome To APCS-Advanced";
@@ -51,7 +51,7 @@ int main(){
 }
 */
 
-// Reference(°Ñ¦Ò)
+// Reference
 /*
 void swap(int &a, int &b){
     int temp = a;
@@ -67,7 +67,7 @@ int main(){
 }
 */
 
-// Âù¼h¯x°}
+// 2D Matrix
 /*
 int main(){
     int arr[3][2] = {{10, 6}, {5, 2}, {3, 12}};
@@ -81,7 +81,7 @@ int main(){
 }
 */
 
-// Âù¼h°j°é
+// Nested Loop
 /*
 int main(){
     int arr[3][2] = {{10, 6}, {5, 2}, {3, 12}};
@@ -95,7 +95,7 @@ int main(){
 }
 */
 
-// ¯x°}ªì©l¤Æ
+// Initialize Matrix
 /*
 int main(){
     int arr[3][2] = {};
@@ -124,7 +124,7 @@ int main(){
 
 */
 
-// Âù¼h¯x°} (½m²ß)
+// 2D Matrix (Practice)
 
 int main(){
     int r, c;
