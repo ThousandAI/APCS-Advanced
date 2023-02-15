@@ -67,5 +67,88 @@ int main(){
 }
 */
 
+// Âù¼h¯x°}
+/*
+int main(){
+    int arr[3][2] = {{10, 6}, {5, 2}, {3, 12}};
+    cout << arr[0][0] << endl;
+    cout << arr[0][1] << endl;
+    cout << arr[1][0] << endl;
+    cout << arr[1][1] << endl;
+    cout << arr[2][0] << endl;
+    cout << arr[2][1] << endl;
+    return 0;
+}
+*/
 
+// Âù¼h°j°é
+/*
+int main(){
+    int arr[3][2] = {{10, 6}, {5, 2}, {3, 12}};
+    for(int i = 0; i < 3; ++i){
+        for(int j = 0; j < 2; ++j){
+            cout <<arr[i][j] << " ";
+        }
+        cout << endl;
+    }
+    return 0;
+}
+*/
 
+// ¯x°}ªì©l¤Æ
+/*
+int main(){
+    int arr[3][2] = {};
+    for(int i = 0; i < 3; ++i){
+        for(int j = 0; j < 2; ++j){
+            cout <<arr[i][j] << " ";
+        }
+        cout << endl;
+    }
+    int m, n;
+    cin >> m >> n;
+    int brr[m][n];
+    for(int i = 0; i < m; ++i){
+        for(int j = 0; j < n; ++j){
+            brr[i][j] = 0;
+        }
+    }
+    for(int i = 0; i < m; ++i){
+        for(int j = 0; j < n; ++j){
+            cout <<brr[i][j] << " ";
+        }
+        cout << endl;
+    }
+    return 0;
+}
+
+*/
+
+// Âù¼h¯x°} (½m²ß)
+
+int main(){
+    int r, c;
+    cin >> r >> c;
+    int arr[r][c];
+    for(int i = 0; i < r; ++i){
+        for(int j = 0; j < c; ++j){
+            int temp;
+            cin >> temp;
+            arr[i][j] = temp;
+        }
+    }
+
+    for(int i = 0; i < r; ++i){
+        int r_max;
+        for(int j = 0; j < c; ++j){
+            if(j == 0){
+                r_max = arr[i][j];
+            }
+            else{
+                r_max = arr[i][j] > r_max ? arr[i][j] : r_max;
+            }
+        }
+        cout << r_max << endl;
+    }
+    return 0;
+}
