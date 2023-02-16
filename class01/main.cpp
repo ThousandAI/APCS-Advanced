@@ -194,12 +194,14 @@ int main(){
 int main(){
     vector<vector<int>> vt;
     vt = {{1,2}, {3,5}, {6,7}};
+
     for(int i = 0; i < vt.size(); ++i){
         for(int j = 0; j < vt[0].size(); ++j){
             cout << vt[i][j] << " ";
         }
         cout << endl;
     }
+
     cout << "----------------------" << endl;
     vector<int> tem;
     vt.clear();
@@ -220,7 +222,6 @@ int main(){
 */
 
 // vector (practice)
-
 int main(){
     int r, c;
     vector<vector<int>> vt;
