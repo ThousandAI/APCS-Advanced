@@ -5,7 +5,6 @@ using namespace std;
 int main()
 {
     int n, temp;
-    int nopass_max, pass_min;
     vector<int> vt;
     cin >> n;
     for(int i = 0; i < n; ++i){

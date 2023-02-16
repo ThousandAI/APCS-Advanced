@@ -188,3 +188,56 @@ int main(){
     return 0;
 }
 */
+
+// vector 2D
+/*
+int main(){
+    vector<vector<int>> vt;
+    vt = {{1,2}, {3,5}, {6,7}};
+    for(int i = 0; i < vt.size(); ++i){
+        for(int j = 0; j < vt[0].size(); ++j){
+            cout << vt[i][j] << " ";
+        }
+        cout << endl;
+    }
+    cout << "----------------------" << endl;
+    vector<int> tem;
+    vt.clear();
+    tem = {1,10};
+    vt.push_back(tem);
+    tem = {3, 2};
+    vt.push_back(tem);
+    tem = {7, 8};
+    vt.push_back(tem);
+    for(int i = 0; i < vt.size(); ++i){
+        for(int j = 0; j < vt[0].size(); ++j){
+            cout << vt[i][j] << " ";
+        }
+        cout << endl;
+    }
+    return 0;
+}
+*/
+
+// vector (practice)
+int main(){
+    int r, c;
+    vector<vector<int>> vt;
+    cin >> r >> c;
+    for(int i = 0; i < r; ++i){
+        vector<int> vtemp;
+        for(int j = 0; j < c; ++j){
+            int temp;
+            cin >> temp;
+            vtemp.push_back(temp);
+        }
+        vt.push_back(vtemp);
+    }
+    for(int i = 0; i < vt.size(); ++i){
+        for(int j = 0; j < vt[0].size(); ++j){
+            cout << vt[i][j] << " ";
+        }
+        cout << endl;
+    }
+    return 0;
+}
