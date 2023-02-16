@@ -1,4 +1,5 @@
 # depslib dependency file v1.0
-1676303971 source:d:\千祐智慧科技\thousandai-程式教育\thousandai\apcs-advanced\class01\main.cpp
+1676559300 source:d:\千祐智慧科技\thousandai-程式教育\thousandai\apcs-advanced\class01\main.cpp
 	<iostream>
+	<vector>
 

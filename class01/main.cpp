@@ -1,4 +1,7 @@
-#include <iostream>
+//#include <iostream>
+//#include <vector>
+//#include <algorithm>
+#include <bits/stdc++.h>
 using namespace std;
 
 // Data Type
@@ -125,7 +128,7 @@ int main(){
 */
 
 // 2D Matrix (Practice)
-
+/*
 int main(){
     int r, c;
     cin >> r >> c;
@@ -152,3 +155,36 @@ int main(){
     }
     return 0;
 }
+*/
+
+// vector
+/*
+int main(){
+    vector<int> vt;
+    int n;
+    cin >> n;
+    int temp;
+    for(int i = 0; i < n; ++i){
+        cin >> temp;
+        vt.push_back(temp);
+    }
+    cout << vt.size() << endl;
+    cout << vt.front() << endl;
+    cout << vt.back() << endl;
+    for(int i = 0; i < vt.size(); ++i){
+        cout << vt[i] << " ";
+    }
+    cout << endl;
+    // sort
+    sort(vt.begin(), vt.end()); // ascending
+    for(int i = 0; i < vt.size(); ++i){
+        cout << vt[i] << " ";
+    }
+    cout << endl;
+    sort(vt.begin(), vt.end(), greater<int>());
+    for(int i = 0; i < vt.size(); ++i){
+        cout << vt[i] << " ";
+    }
+    return 0;
+}
+*/
