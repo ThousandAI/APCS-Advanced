@@ -220,10 +220,12 @@ int main(){
 */
 
 // vector (practice)
+
 int main(){
     int r, c;
     vector<vector<int>> vt;
     cin >> r >> c;
+
     for(int i = 0; i < r; ++i){
         vector<int> vtemp;
         for(int j = 0; j < c; ++j){
@@ -233,11 +235,12 @@ int main(){
         }
         vt.push_back(vtemp);
     }
+
     for(int i = 0; i < vt.size(); ++i){
-        for(int j = 0; j < vt[0].size(); ++j){
-            cout << vt[i][j] << " ";
-        }
+        sort(vt[i].begin(), vt[i].end());
+        cout << vt[i].back();
         cout << endl;
     }
+
     return 0;
 }
