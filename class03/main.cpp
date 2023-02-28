@@ -1,5 +1,4 @@
 #include <bits/stdc++.h>
-
 using namespace std;
 
 void showVector1d(vector<int> &vt){
@@ -85,7 +84,6 @@ int main(){
     return 0;
 }
 */
-
 void bubbleSort(vector<int> &vt){
     for(int i = 0; i < vt.size() -1 ; ++i){
         for(int j = 0; j < vt.size() -1; ++j){
@@ -107,6 +105,3 @@ int main(){
     bubbleSort(vt);
     return 0;
 }
-
-
-
